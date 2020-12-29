@@ -1,0 +1,36 @@
+/*Icon styling below */
+.icon-left{
+  position:absolute;
+  top:10px;
+  left:10px;
+}
+.icon-right{
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+
+/*Change the color of the icon for which season is selected */
+.season-display.winter i{
+  color:blue;
+}
+.season-display.summer i{
+  color:red;
+}
+
+/*Overall styling of the entire app */
+.season-display{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+
+/* Type of Seasons listed below */
+.winter{
+  background-color:aliceblue;
+}
+.summer{
+  background-color:orange;
+}
